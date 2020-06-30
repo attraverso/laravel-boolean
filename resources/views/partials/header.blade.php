@@ -1,6 +1,6 @@
 <header>
   <div class="header-left">
-    <img src="http://boolean.careers/images/common/logo.png" alt="">
+    <img src="http://boolean.careers/images/common/logo.png" alt="boolean logo">
   </div>
   <nav class="header-right">
     <ul>

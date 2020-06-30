@@ -5,5 +5,7 @@ $fa-font-path: 'fonts';
 @import '~@fortawesome/fontawesome-free/scss/regular';
 @import '~@fortawesome/fontawesome-free/scss/solid';
 @import 'partials/variables';
+@import 'partials/mixins';
 @import 'partials/common';
 @import 'partials/header';
+@import 'partials/footer';

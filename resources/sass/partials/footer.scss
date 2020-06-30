@@ -1,0 +1,30 @@
+@import '_variables';/*FIXME delete this*/
+
+footer {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  background-color: $secondaryBgColor;
+  color: $secondaryTextColor;
+}
+
+.footer-top {
+  @include flex;
+  border-bottom: 1px solid $secondaryTextColor;
+}
+
+.footer-left img {
+  width: 200px;
+}
+
+.footer-right li {
+  list-style-type: none;
+}
+
+.footer-bottom {
+  text-align: center;
+
+  & i {
+    font-size: 2em;
+    padding: 20px;
+  }
+}
