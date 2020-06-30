@@ -1,0 +1,33 @@
+.jumbo {
+  @include flex;
+  margin-bottom: 80px;
+}
+
+.jumbo-left {
+  width: 50%;
+  & h1 {
+    font-weight: 300;
+    font-size: 4em;
+    text-transform: uppercase;
+  }
+
+  & li {
+    padding-top: 5px;
+  }
+}
+
+.jumbo-right {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  
+
+  & img {
+    width: 80%;
+  }
+}
+
+.stats {
+  @extend %accent-panel;
+  @include flex;
+}

@@ -4,12 +4,12 @@
   </div>
   <nav class="header-right">
     <ul>
-      <li>Home</li>
-      <li>Corso</li>
-      <li>Dopo il corso</li>
-      <li>Lezione gratuita</li>
-      <li>Assumi i nostri studenti</li>
-      <li class="btn btn-primary">Candidati ora</li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Corso</a></li>
+      <li><a href="#">Dopo il corso</a></li>
+      <li><a href="#">Lezione gratuita</a></li>
+      <li><a href="#">Assumi i nostri studenti</a></li>
+      <li class="btn btn-primary"><a href="#">Candidati ora</a></li>
     </ul>
   </nav>
 </header>

@@ -1,12 +1,20 @@
 @import '_variables';/*FIXME delete this*/
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   font-family: 'Rubik', sans-serif;
+  font-size: 16px;
 }
 
 .btn {
-  border-radius: 20px;
+  font-size: 16px;
+  border-radius: 5%;
   color: $secondaryTextColor;
+  padding: 10px 20px;
 }
 
 .btn-primary {
@@ -14,7 +22,18 @@ body {
   background-color: $mainBgColor;
 }
 
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 .container {
-  width: 80%;
+  width: 75%;
   margin: auto;
+}
+
+%accent-panel {
+  background-color: $secondaryBgColor;
+  color: $secondaryTextColor;
 }

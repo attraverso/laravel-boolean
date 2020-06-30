@@ -12,5 +12,12 @@ nav li {
   display: inline-block;
   font-size: 14px;
   text-transform: uppercase;
-  padding: 20px 30px;
+
+  &:not(:last-child) {
+    padding: 20px 30px
+  }
+
+  &:active {
+    border-bottom: 1px solid $mainBgColor;
+  }
 }
