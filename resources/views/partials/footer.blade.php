@@ -10,10 +10,10 @@
     </div>
     <div class="footer-right">
       <ul>
-        <li>Lezione gratuita</li>
-        <li>Domande frequenti</li>
-        <li>Privacy policy</li>
-        <li>Lavora con noi</li>
+        <li><a href="#">Lezione gratuita</a></li>
+        <li><a href="{{ route('FAQs') }}">Domande frequenti</a></li>
+        <li><a href="{{ route('privacy') }}">Privacy policy</a></li>
+        <li><a href="#">Lavora con noi</a></li>
       </ul>
     </div>
   </div>

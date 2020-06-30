@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('page-title', 'I believe I can Boolean')
+    
+
+
 @section('content')
   <section id="jumbo" class="container">
     <div class="jumbo-left">

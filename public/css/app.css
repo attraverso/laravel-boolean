@@ -6524,6 +6524,10 @@ nav li:active {
   width: 80%;
 }
 
+#stats {
+  padding-bottom: 20px;
+  /*FIXME why doesn't this get taken into account?*/
+}
 #stats .container {
   display: flex;
   justify-content: space-between;
@@ -6544,14 +6548,15 @@ nav li:active {
   line-height: 1.2em;
 }
 
-#employers {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.employers-top {
+  padding: 10px 0;
+  color: #8e8e8e;
 }
 
 .employers-bottom {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 20px;
 }
 .employers-bottom .employer-imgbox {
   width: 33%;
