@@ -1,0 +1,17 @@
+header {
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & img {
+    width: 200px;
+  }
+}
+
+nav li {
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 20px 30px;
+}
