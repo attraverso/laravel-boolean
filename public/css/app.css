@@ -6443,7 +6443,8 @@ a {
 
 body {
   font-family: "Rubik", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .btn, .btn-primary {
@@ -6468,7 +6469,7 @@ body {
   margin: auto;
 }
 
-footer, .stats {
+footer, #stats {
   background-color: #1b3c59;
   color: #fff;
 }
@@ -6495,7 +6496,7 @@ nav li:active {
   border-bottom: 1px solid #61ce4e;
 }
 
-.jumbo {
+#jumbo {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -6523,10 +6524,43 @@ nav li:active {
   width: 80%;
 }
 
-.stats {
+#stats .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+#stats .stats-box {
+  width: 25%;
+  text-align: center;
+}
+#stats .stats-box p:first-child {
+  font-size: 3em;
+  font-weight: 400;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+#stats .stats-box p:last-child {
+  font-size: 20px;
+  line-height: 1.2em;
+}
+
+#employers {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.employers-bottom {
+  display: flex;
+  flex-wrap: wrap;
+}
+.employers-bottom .employer-imgbox {
+  width: 33%;
+}
+.employers-bottom .employer-imgbox img {
+  height: 100px;
+}
+.employers-bottom .employer-imgbox.shift-rx {
+  text-align: right;
 }
 
 /*FIXME delete this*/

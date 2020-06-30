@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-  <section class="jumbo container">
+  <section id="jumbo" class="container">
     <div class="jumbo-left">
       <h1>Diventa <strong>sviluppatore web</strong></h1>
       <h2>Trasformiamo la tua passione in una carriera.<br>Se non trovi lavoro, ti rimborsiamo.</h2>
@@ -15,20 +15,35 @@
       <img src="http://boolean.careers/images/homepage/pc-black-gif.gif" alt="image of a computer screen with lines of code">
     </div>
   </section>
-  <section class="stats">
+  <section id="stats">
     <div class="container">
-      <div class="statBox1">
+      <div class="stats-box">
         <p><strong>98%</strong></p>
         <p>La percentuale dei nostri studenti che ora lavora come web developer, oltre la metà a tempo indeterminato.</p>
       </div>
-      <div class="statBox2">
+      <div class="stats-box">
         <p><strong>€ 23.000</strong></p>
         <p>Lo stipendio medio lordo di partenza degli studenti assunti dalle nostre aziende partner.</p>
       </div>
-      <div class="statBox3">
+      <div class="stats-box">
         <p><strong>#1</strong></p>
         <p>Siamo il primo istituto online in Italia per indice di gradimento e risultati conseguiti.</p>
       </div>
     </div>
+  </section>
+  <section id=employers>
+   <div class="container">
+      <div class="employers-top">
+        I nostri studenti sono stati assunti da:
+      </div>
+      <div class="employers-bottom">
+        <div class="employer-imgbox"><img src="http://boolean.careers/images/companies/facileit.png" alt="facile.it logo" class="employer-logo"></div>
+        <div class="employer-imgbox"><img src="http://boolean.careers/images/companies/oneday.png" alt="oneday logo" class="employer-logo"></div>
+        <div class="employer-imgbox"><img src="http://boolean.careers/images/companies/prima.png" alt="prima.it logo" class="employer-logo"></div>
+        <div class="employer-imgbox shift-rx"><img src="http://boolean.careers/images/companies/fabbrica-digitale-big.png" alt="fabbrica digitale logo" class="employer-logo"></div>
+        <div class="employer-imgbox shift-rx"><img src="http://boolean.careers/images/companies/nephila.png" alt="nephila logo" class="employer-logo"></div>
+        <div class="employer-imgbox shift-rx"><img src="http://boolean.careers/images/companies/rds.png" alt="rds logo" class="employer-logo"></div>
+      </div>
+   </div>
   </section>
 @endsection

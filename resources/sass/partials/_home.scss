@@ -1,4 +1,4 @@
-.jumbo {
+#jumbo {
   @include flex;
   margin-bottom: 80px;
 }
@@ -27,7 +27,52 @@
   }
 }
 
-.stats {
+#stats {
   @extend %accent-panel;
-  @include flex;
+  padding-bottom: 20px;/*FIXME why doesn't this get taken into account?*/
+
+  & .container {
+    @include flex;
+  }
+
+  & .stats-box {
+    width: 25%;
+    text-align: center;
+  
+    & p:first-child {
+      font-size: 3em;
+      font-weight: 400;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+
+    & p:last-child {
+      font-size: 20px;
+      line-height: 1.2em;
+    }
+  }
+}
+
+.employers-top {
+  padding: 10px 0;
+  color: $employersLogosColor;
+}
+
+
+.employers-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20px
+
+  & .employer-imgbox {
+    width: 33%;
+
+    & img {
+      height: 100px;
+    }
+
+    &.shift-rx {
+      text-align: right;
+    }
+  }
 }
