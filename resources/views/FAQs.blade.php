@@ -11,20 +11,19 @@
     <div class="faqs-left">
       <h2>Durante il corso</h2>
       @foreach ($faqs_now as $faq)
-      <div class="faq-question">
-        <div class="question">
-          <span>{{$faq['question']}}</span>
-          <i class="fas fa-plus"></i></div>
-        <div class="answer">
-          @foreach(explode('|', $faq['answer']) as $answer_para)
-              <p>{{$answer_para}}</p>
-          @endforeach
+        <div class="faq-question">
+          <div class="question">
+            <span>{{$faq['question']}}</span>
+            <i class="fas fa-plus"></i></div>
+          <div class="answer">
+            @foreach(explode('|', $faq['answer']) as $answer_para)
+                <p>{{$answer_para}}</p>
+            @endforeach
+          </div>
         </div>
-      </div>
-    @endforeach
-      </div>
+       @endforeach
     </div>
-    <div class="faqs-right clearfix">
+    <div class="faqs-right">
       <h2>Dopo il corso</h2>
       @foreach ($faqs_after as $faq)
         <div class="faq-question">
