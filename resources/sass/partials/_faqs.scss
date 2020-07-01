@@ -1,0 +1,32 @@
+#faqs-box{
+  display: flex;
+
+  & i {
+  float: right;
+  }
+}
+
+#faqs-box,
+.faqs-left,
+.faqs-right {
+  box-sizing: border-box;
+}
+
+.faqs-left,
+.faqs-right {
+  width: 50%;
+}
+
+.faqs-left {
+  padding: 15px 15px 15px 12.5%;
+}
+
+.faqs-right {
+  @extend %accent-panel;
+  height: 100%;
+  padding: 15px 12.5% 15px 15px;
+}
+
+.answer {
+  display: none;
+}

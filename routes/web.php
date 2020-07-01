@@ -22,5 +22,7 @@ Route::get('/privacy-policy', function () {
 })->name('privacy');
 
 Route::get('/faq', function () {
-    return view('FAQs');
+    $faqs_left = config('faqs.faqs_now');
+    $faqs_right = config('faqs.faqs_after');
+    return view('FAQs')->with(['faqs_now' => $faqs_left, 'faqs_after' => $faqs_right]);
 })->name('FAQs');
